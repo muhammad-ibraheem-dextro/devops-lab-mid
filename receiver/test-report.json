@@ -1,0 +1,30 @@
+{
+  "repository": "muhammad-ibraheem-dextro/devops-lab-mid",
+  "branch": "main",
+  "commit": "835b7c6e6b73420b590d2fd4c4536534a36f060a",
+  "pipeline_run": "43204784033",
+  "timestamp": "2026-11-12T10:56:55.052Z",
+  "overall_status": "PASSED",
+  "counts": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "tests": [
+    {
+      "name": "Complete details and a valid submission URL",
+      "result": "passed",
+      "failure_message": null
+    },
+    {
+      "name": "Missing registration number",
+      "result": "passed",
+      "failure_message": null
+    },
+    {
+      "name": "Invalid submission URL",
+      "result": "passed",
+      "failure_message": null
+    }
+  ]
+}
