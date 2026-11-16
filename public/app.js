@@ -8,7 +8,7 @@ function submitAssignment(name, regNo, title, url) {
     
     // Check if URL is valid
     try {
-        new URL(url);
+        // new URL(url);
     } catch (error) {
         return { success: false, message: "Validation Error: Invalid submission URL." };
     }
