@@ -1,14 +1,14 @@
 {
   "repository": "muhammad-ibraheem-dextro/devops-lab-mid",
   "branch": "main",
-  "commit": "10ca1ac05c93882c977461efb05660f14596f77a",
-  "pipeline_run": "43275280108",
-  "timestamp": "2026-11-12T18:00:29.422Z",
-  "overall_status": "PASSED",
+  "commit": "7ada91787b87e5c5a2307372a31759323a44a468",
+  "pipeline_run": "43917111187",
+  "timestamp": "2026-11-16T17:19:24.522Z",
+  "overall_status": "FAILED",
   "counts": {
     "total": 3,
-    "passed": 3,
-    "failed": 0
+    "passed": 2,
+    "failed": 1
   },
   "tests": [
     {
@@ -23,8 +23,8 @@
     },
     {
       "name": "Invalid submission URL",
-      "result": "passed",
-      "failure_message": null
+      "result": "failed",
+      "failure_message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at Object.toBe (/home/runner/work/devops-lab-mid/devops-lab-mid/tests/app.test.js:26:28)\n    at Promise.finally.completed (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:1834:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:1774:10)\n    at _callCircusTest (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:1167:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTestInContext (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:1103:3)\n    at runTestWithContext (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:996:5)\n    at _runTestsForDescribeBlockOnce (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:1008:11)\n    at _runTestsForDescribeBlock (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:824:5)\n    at run (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:789:3)\n    at runAndTransformResultsToJestFormat (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/jestAdapterInit.js:2300:21)\n    at jestAdapter (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-circus/build/runner.js:111:19)\n    at runTestInternal (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-runner/build/index.js:247:16)\n    at runTest (/home/runner/work/devops-lab-mid/devops-lab-mid/node_modules/jest-runner/build/index.js:315:7)"
     }
   ]
 }
